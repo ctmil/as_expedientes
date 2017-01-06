@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+
+	<!-- just a declaration -->
+        <record model="ir.ui.view" id="view_attachment_form_expedientes">
+            <field name="name">view.attachment.form.expedientes</field>
+            <field name="inherit_id" ref="base.view_attachment_form"/>
+            <field name="model">ir.attachment</field>
+            <field name="arch" type="xml">
+		<xpath expr="//group/group[2]" position="attributes">
+			<attribute name="groups"></attribute>
+		</xpath>
+		<xpath expr="//group/group[3]" position="attributes">
+			<attribute name="groups"></attribute>
+		</xpath>
+		<xpath expr="//group/group[4]" position="attributes">
+			<attribute name="groups"></attribute>
+		</xpath>
+		<xpath expr="//group/group[5]" position="attributes">
+			<attribute name="groups"></attribute>
+		</xpath>
+            </field>
+        </record>
+
+
+  </data>
+</openerp>

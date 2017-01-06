@@ -23,6 +23,7 @@
     "depends": ["base"],
     "init_xml": [],
     "data": [
+	'as_expedientes_view.xml'
     ],
     'demo_xml': [
     ],
