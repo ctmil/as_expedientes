@@ -20,7 +20,7 @@
 {
     "name": "AS Expedientes",
     "category": "Generic Modules/Projects & Services",
-    "depends": ["base"],
+    "depends": ["base","mail"],
     "init_xml": [],
     "data": [
 	'as_expedientes_view.xml'
